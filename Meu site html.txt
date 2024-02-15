@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfólio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, me chamo</h3>
+            <h1>Luana Hedlund De Bona</h1>
+            <h3>E sou uma <span>Desenvolvedora Web</span> em formação</h3>
+            <p>Cursando Sistemas para Internet e sempre em busca de novos conhecimentos.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/luuh.hedlunddebona.7?locale=pt_BR"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/luuh_hedlund/"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/luana-hedlund-de-bona-b62aa0259/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/luuhhedlund"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="Documentos/Luana Hedlund De Bona - Currículo.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="Imagens/Polish_20231212_201912266.png">
+        </div>
+    </section>
+
+    <!-- sobre section design-->
+    <section class="sobre" id="sobre">
+        <div class="sobre-img">
+            <img src="Imagens/Polish_20231211_225101521.png" alt="">
+        </div>
+
+        <div class="sobre-content">
+            <h2 class="heading">Sobre <span>Mim</span></h2>
+            <h3>Futura Desenvolvedora Web</h3>
+            <p>Olá, meu nome é Luana, tenho 24 anos e no momento estou cursando Sistemas para Internet
+                na universidade UNISINOS, polo de São Leopoldo.
+                Realizei 2 semestres de licenciatura em música no Instituto de Educação Ivoti
+                e em 2023 resolvi migrar para a área de TI, pois com muita análise, me interessei
+                pelos cursos e, principalmente, pelas oportunidades que a área tecnológica oferece.
+                Além da faculdade estou realizando cursos online disponibilizados gratuitamente 
+                na internet, todos focados na área de TI, pois ajudam a ampliar meus conhecimentos,
+                e com cursos específicos consigo me preparar para futuras oportunidades de trabalho.</p>
+            <a href="file:///C:/Users/dbona/Documents/Pasta%20de%20Conte%C3%BAdos%20-%20Luana/Conte%C3%BAdos%20Diversos/Meu%20Site/index1.html#sobre" class="btn">Cursos Realizados</a>   
+        </div>
+    </section>
+
+    <!-- habilidades section design-->
+    <section class="habilidades" id="habilidades">
+        <h2 class="heading">Minhas <span>Habilidades</span></h2>
+
+        <div class="habilidades-container">
+            <div class="habilidades-box">
+                <i class='bx bxl-html5'></i>
+                <i class='bx bxl-css3'></i>
+                <h3>HTML e CSS</h3>
+            </div>
+
+            <div class="habilidades-box">
+                <i class='bx bxl-javascript'></i>
+                <h3>JavaScript</h3>
+            </div>
+            
+            <div class="habilidades-box">
+                <i class='bx bxl-windows'></i>
+                <h3>Microsoft Office 365</h3>
+            </div>
+
+            <div class="habilidades-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Marketing Digital</h3>
+            </div>
+
+            <div class="habilidades-box">
+                <i class='bx bxl-windows'></i>
+                <h3>Microsoft Office 365</h3>
+            </div>
+
+            <div class="habilidades-box">
+                <i class='bx bxl-windows'></i>
+                <h3>Microsoft Office 365</h3>
+            </div>
+        </div>    
+    </section>
+
+    <!-- portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Trabalhos  <span>Recentes</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Imagens/d67e4488accf09a0e136966d29ab23e0.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Em Breve</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Imagens/d67e4488accf09a0e136966d29ab23e0.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Em Breve</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Imagens/d67e4488accf09a0e136966d29ab23e0.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Em Breve</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design-->
+    <section class="contato" id="contato">
+        <h2 class="heading">Entre em  <span>Contato</span></h2>
+
+        <form action="https://formsubmit.co/luuhhedlund@gmail.com" method="POST">
+            <div class="input-box">
+                <input type="text" name="Nome Completo" placeholder="Nome Completo" required />
+                <input type="email" name="E-mail" placeholder="Endereço de E-mail" required />
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Número de Telefone">
+                <input type="text" name="Assunto" placeholder="Assunto do E-mail" required />
+            </div>
+            <textarea name="Mensagem" id="" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+            <input type="submit" value="Enviar Mensagem" required class="btn">
+        </form>
+    </section>
+
+    <!-- footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Luana Hedlund de Bona | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- custom js-->
+    <script src="script.js"></script>
+</body>
+
+</html>
